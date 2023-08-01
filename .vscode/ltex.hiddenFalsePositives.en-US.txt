@@ -1,0 +1,28 @@
+{"rule":"WHITESPACE_RULE","sentence":"^\\QIn Section \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q, we evaluate our approach against the baseline  compiler.\\E$"}
+{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qmaintains multiple versions of a function and performs contextual dispatch based on assumptions about arguments at its call sites.\\E$"}
+{"rule":"COMMA_PARENTHESIS_WHITESPACE","sentence":"^\\QWe thus process LLVM bitcodes through the pipeline described above, and aim to achieve similar or better performance than , while keeping the associated overheads to a minimum.\\E$"}
+{"rule":"ENGLISH_WORD_REPEAT_BEGINNING_RULE","sentence":"^\\QWe investigate various pathological scenarios that arise in a complex dynamic runtime and demonstrate improvements imparted by our approach to address the same.\\E$"}
+{"rule":"COMMA_PARENTHESIS_WHITESPACE","sentence":"^\\QIn , when a compilation a function is triggered, runtime feedback (which is stored in the form of inline caches in the bytecode) is used to perform speculative optimizations.\\E$"}
+{"rule":"NOUN_VERB_CONFUSION","sentence":"^\\QDeoptimization information: When an assumption fails in the compiled code, the runtime must fallback to a specific point in code and reconstruct the interpreter stage.\\E$"}
+{"rule":"COMMA_PARENTHESIS_WHITESPACE","sentence":"^\\QIn , when a function compilation is triggered, runtime feedback (which is stored in the form of inline caches in the bytecode) is used to perform speculative optimizations.\\E$"}
+{"rule":"NOUN_VERB_CONFUSION","sentence":"^\\QDeoptimization information: When an assumption fails in the compiled code, the runtime must fallback to a specific point in code and reconstruct the interpreter state.\\E$"}
+{"rule":"COMMA_PARENTHESIS_WHITESPACE","sentence":"^\\QIn , this deoptimization data includes the location of the internal feedback slot to update, the bytecode offset from which to resume the execution, and the number of call-stack frames to collapse.\\E$"}
+{"rule":"COMMA_PARENTHESIS_WHITESPACE","sentence":"^\\QHowever, in , we have observed that the number of feedback slots for typical programs may vary from few tens to even a few thousands, which poses a serious challenge towards the dispatch overhead that may be incurred using such a scheme.\\E$"}
+{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qwl: It is initialized as a set of \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q pairings of all the FV's in the graph.\\E$"}
+{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qsol: It initialized as an empty set which holds the currently selected edges.\\E$"}
+{"rule":"LC_AFTER_PERIOD","sentence":"^\\QThis step first adds all such trivial solutions to the triv.sol and then for all other occurrences of this edge in the graph, it removes all the connecting edges between the nodes that contain this edge.\\E$"}
+{"rule":"COMMA_PARENTHESIS_WHITESPACE","sentence":"^\\QLine 10-11 iterate over all the combinations of sDiff as follows, if sDiff contains \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q COMBINATIONS( sDiff) results in \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q.\\E$"}
+{"rule":"LC_AFTER_PERIOD","sentence":"^\\QIn Figure \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q (c), the triv.sol currently contains 17 and c contains 3, when we reduce the graph using the solution 3, 17 we obtain a solution that completely empties the worklist.\\E$"}
+{"rule":"ENGLISH_WORD_REPEAT_RULE","sentence":"^\\QsolveTrivial solveTrivial getDiffUnion getDiffUnion sortByReduction sortByReduction combinations combinations solve solve\\E$"}
+{"rule":"LC_AFTER_PERIOD","sentence":"^\\QLine 12 creates a new set tsol that contains the union of triv.sol (currently selected solutions) and c (current set of solutions yet to be checked).\\E$"}
+{"rule":"NOUN_VERB_CONFUSION","sentence":"^\\QThis allows the JIT to fallback to existing operation until a suitable run-time context that can be used for dispatching emerges.\\E$"}
+{"rule":"COMMA_PARENTHESIS_WHITESPACE","sentence":"^\\QWe compare it against the default , which uses traditional contextual compilation.\\E$"}
+{"rule":"COMMA_PARENTHESIS_WHITESPACE","sentence":"^\\QIn general, bc is much faster in the first iterations than baseline .\\E$"}
+{"rule":"COMMA_PARENTHESIS_WHITESPACE","sentence":"^\\QIn a traditional JIT compiler such as , phase change triggers a deoptimization event that leads to recompilation in a more generalized context, one that reflects the union of the new type feedback with the previous ones.\\E$"}
+{"rule":"COMMA_PARENTHESIS_WHITESPACE","sentence":"^\\QIt shows the speedup that bc exhibits over .\\E$"}
+{"rule":"LARGE_NUMBER_OF","sentence":"^\\QThe number of L2 collisions are only 2.2% of the total number of binaries processed, meaning that the second-level context is adequately able to handle a large number of binaries.\\E$"}
+{"rule":"LARGE_NUMBER_OF","sentence":"^\\QFor the flexclust program, where the number of compilations did not reduce to zero even after a large number of iterations, we traced down the reasons in the base JIT compiler.\\E$"}
+{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qis currently used exclusively for research purposes and, as such, has unresolved corner cases.\\E$"}
+{"rule":"COMMA_PARENTHESIS_WHITESPACE","sentence":"^\\Q, on the other hand, maintains multiple binaries each with different assumptions about arguments at call-sites.\\E$"}
+{"rule":"LARGE_NUMBER_OF","sentence":"^\\QIt is clear that the alternative approach leads to a large number of compilations for the programs in which it performs worse (e.g. pidigits).\\E$"}
+{"rule":"LARGE_NUMBER_OF","sentence":"^\\QCaching compilation artifacts or profile information to speed up JIT warmup is not a new idea and there is a large number of publications in this space.\\E$"}

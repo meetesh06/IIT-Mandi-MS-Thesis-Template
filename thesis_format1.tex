@@ -1,0 +1,108 @@
+%%----------------------------------------------------------------------------
+%% LAST REVISED: P. Satyanarayana Murthy on 15 Jan 1999, 15:49 hrs.
+%%----------------------------------------------------------------------------
+%\documentstyle[myMS, psfig, epsf, cite, float, subfigure, graphicx, verbatim, amssymb]{newdiss}
+\documentclass[12pt,oneside]{iitmMyPhD}
+%\documentstyle[ms, psfig, epsf, cite, float, subfigure, graphicx, verbatim, amssymb,txfonts,multirow,lscape]{newdiss}
+%\usepackage{psfig, epsf, cite, float, subfigure, graphicx, verbatim, amssymb,txfonts,multirow,lscape}
+
+%\usepackage{lineno,hyperref}
+%\usepackage[caption=false,font=footnotesize]{subfig}
+%\usepackage{subfloat}
+\usepackage{makecell}
+\usepackage{amsmath, latexsym}
+\usepackage{epsfig, epsf, cite, float, floatflt, graphicx, verbatim, amssymb, txfonts, multirow, lscape, setspace, rotating}
+\usepackage{graphics}
+\usepackage{tabularx}
+\usepackage[small]{caption}
+\usepackage{appendix}
+%\usepackage[titletoc,title]{appendix}
+\usepackage[breaklinks=true]{hyperref}
+\newcommand{\TODO}[1]{{\bf \color{red} ToDo: #1}}
+\newcommand{\NOTE}[1]{{\bf \color{blue} Note:: #1}}
+\newcommand{\VFY}[1]{{\bf \color{magenta} Verified: #1}}
+\usepackage{url}
+\usepackage[linesnumbered,vlined,figure]{algorithm2e}
+\usepackage{times, comment, array}
+\usepackage{upgreek}
+\usepackage{indentfirst}
+% use upgreek package as - $\upmu$s
+\usepackage{textcomp}
+% use textcomp package as - \textmu s
+
+% \let\iint\relax
+% \usepackage{amsmath}
+% \usepackage{booktabs}
+\usepackage{hhline}
+\usepackage{tabularx}
+\usepackage{layout}
+\usepackage{multirow}
+\usepackage{enumerate}
+\usepackage{paralist}
+\usepackage{lipsum}
+\usepackage{titlesec}
+\usepackage{units}
+%\usepackage{chapterbib}
+%\usepackage[sectionbib]{chapterbib}
+
+%\usepackage{showframe}
+\usepackage{epstopdf}
+\usepackage{threeparttable}
+% \usepackage{siunitx}
+
+\newtheorem{thm}{Theorem}[section]
+% \usepackage[tight,footnotesize]{subfigure} is been already included.
+% \usepackage{epstopdf} is equivalent to epsf
+
+
+%\documentclass{MS}
+%\usepackage{graphicx}
+%\usepackage{cite}
+%\usepackage{epsf}
+%\usepackage{float}
+%\usepackage{amsmath}
+%\usepackage{amssymb}
+
+%%\setlength{\topmargin}{-1.0cm}
+\setlength{\topmargin}{1.0cm}
+\setlength{\textwidth}{15.42cm}
+%% \setlength{\textwidth}{16.40cm}  % TO SAVE PAGES WHILE PREPARING ROUGH DRAFT.
+%\setlength{\textheight}{22cm}     % FOR DOTMATRIX PRINTER.
+\setlength{\textheight}{23cm}
+%\setlength{\textheight}{21cm}
+%\setlength{\textheight}{25cm}    % TO SAVE PAGES WHILE PREPARING ROUGH DRAFT.
+\setlength{\oddsidemargin}{0.52cm}
+\setlength{\evensidemargin}{0.6cm}
+\setlength{\headheight}{0.0cm}
+\setlength{\headsep}{0.0cm}
+\setlength{\parskip}{0.0cm}
+\setcounter{secnumdepth}{5}
+\setcounter{tocdepth}{5}
+\renewcommand{\baselinestretch}{1.5}
+
+%--------------------------------------------------------------------------
+% ORDER OF THESIS CONTENTS SUGGESTED BY THE INSTITUTE.
+%- - - - - - - - - - - - - - - - - - - - - - - - - - -
+% cover page
+% inside cover page
+% Quotations (if any)
+% dedication page
+% certificate
+% acknowledgements
+% abstract
+% table of contents
+% list of tables
+% list of figures
+% glossary (if any)
+% abbreviations
+% notation
+% chapters
+% appendices
+% references
+% list of papers based on thesis
+% curriculum Vitae    ->   (Only while submitting A5 copy, finally)
+% Doctoral committee  ->   (Only while submitting A5 copy, finally)
+%--------------------------------------------------------------------------
+% TO GET BOLDFACE GREEK LETTERS IN THE MAIN TEXT USE:
+% ${\boldmath \mbox{$\Xi$}} $
+%--------------------------------------------------------------------------
